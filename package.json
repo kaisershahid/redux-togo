@@ -1,0 +1,21 @@
+{
+	"name": "redux-togo",
+	"description": "convenient redux patterns to kickstart your app",
+	"types": "index.d.ts",
+	"main": "index.js",
+	"scripts": {
+		"build:dev": "webpack --mode development",
+		"watch:dev": "webpack --watch --mode development",
+		"test": "mocha --recursive --require @babel/register 'src/**/*.test.js'",
+		"check-types": "tsc"
+	},
+	"dependencies": {
+		"redux": "^4.0.5"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^8.1.2"
+		"ts-node": "^9.0.0",
+		"typescript": "^4.0.2"
+	}
+}
