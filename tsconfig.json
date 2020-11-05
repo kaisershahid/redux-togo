@@ -12,7 +12,8 @@
 		"isolatedModules": true,
 		"jsx": "preserve",
 		"noEmit": false,
-		"outDir": "."
+		"declaration": true,
+		"outDir": "./lib"
 	},
 	"include": ["src/**/*.ts"],
 	"exclude": ["src/**/*.test.ts"]
